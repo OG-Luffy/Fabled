@@ -1,0 +1,11 @@
+{
+  "id": "intro_drive_01",
+  "title": "First Run",
+  "briefing": "Take the delivery van from the garage to the waterfront.",
+  "objectives": [
+    {"type": "enter_vehicle", "vehicleId": "delivery_van"},
+    {"type": "drive_to", "locationId": "waterfront_drop"},
+    {"type": "exit_vehicle"}
+  ],
+  "reward": {"cash": 250, "reputation": 10}
+}
